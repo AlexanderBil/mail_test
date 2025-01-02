@@ -1,0 +1,70 @@
+.header-email,
+.header-messages,
+.header {
+  margin: 10px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+.header-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-register {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-data {
+  display: flex;
+  justify-content: space-between;
+}
+.header-data p {
+  text-align: end;
+}
+.button-block {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+button {
+  color: #fff;
+  border-radius: 8px;
+  border: 0;
+  font-size: 18px;
+  font-weight: 500;
+  min-width: 150px;
+  min-height: 50px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+.button-block button:nth-child(1) {
+  background: #148203;
+}
+.button-block button:nth-child(2) {
+  background: gray;
+}
+button:nth-child(1){
+  background: #148203;
+}
+button:nth-child(2){
+  background: #e37418;
+}
+form label {
+  display: inline-block;
+  width: 120px;
+  word-wrap: break-word;
+  color: #666;
+}
+form input {
+  min-width: 150px;
+  min-height: 30px;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 8px;
+  margin: 10px 0;
+  border: 1px solid #666;
+  padding: 0 10px;
+}
